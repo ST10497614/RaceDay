@@ -1,4 +1,3 @@
-
 name: RaceDay CI
 
 on:
@@ -15,7 +14,6 @@ jobs:
   build-and-test:
     name: Build and Test RaceDay
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,10 +24,10 @@ jobs:
           dotnet-version: '10.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore RaceDay.API.Tests/RaceDay.API.Tests.vbcsproj
+        run: dotnet restore RaceDay.API.Tests/RaceDay.API.Tests.vbproj
 
       - name: Build API and tests
-        run: dotnet build RaceDay.API.Tests/RaceDay.API.Tests.csproj --configuration Release --no-restore
+        run: dotnet build RaceDay.API.Tests/RaceDay.API.Tests.vbproj --configuration Release --no-restore
 
       - name: Run automated tests
-        run: dotnet test RaceDay.API.Tests/RaceDay.API.Tests.csproj --configuration Release --no-build --logger "trx;LogFileName=test-results.trx"
+        run: dotnet test RaceDay.API.Tests/RaceDay.API.Tests.vbproj --configuration Release --no-build --logger "trx;LogFileName=test-results.trx"
