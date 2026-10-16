@@ -26,7 +26,7 @@ jobs:
           dotnet-version: '10.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore RaceDay.API.Tests/RaceDay.API.Tests.csproj
+        run: dotnet restore RaceDay.API.Tests/RaceDay.API.Tests.vbcsproj
 
       - name: Build API and tests
         run: dotnet build RaceDay.API.Tests/RaceDay.API.Tests.csproj --configuration Release --no-restore
