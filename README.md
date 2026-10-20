@@ -192,11 +192,7 @@ If the test project is not included in the solution, run the tests using its act
 dotnet test PATH_TO_TEST_PROJECT.csproj --configuration Release
 ```
 
-Replace the placeholder with the actual path to `RaceDay.API.Tests.csproj`.
-
-Review the test summary and confirm that the tests pass before submitting the project.
-
-## 12. Continuous Integration with GitHub Actions
+## 11. Continuous Integration with GitHub Actions
 
 RaceDay uses GitHub Actions to automate the build and testing process.
 
