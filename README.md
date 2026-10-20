@@ -145,7 +145,7 @@ When Swagger is enabled in the selected development environment, open the Swagge
 ```
 Swagger provides an interactive interface for viewing and testing the available API endpoints.
 
-## 10. Authentication and JWT
+## 9. Authentication and JWT
 
 RaceDay supports authentication using JSON Web Tokens (JWT).
 
