@@ -165,7 +165,7 @@ JWT configuration includes the signing key, issuer, audience and token expiry se
 
 For local development, configure these settings using the project's expected configuration keys. Use a secure secret store or environment variables for signing keys and other sensitive values. Never publish real JWT signing keys.
 
-## 11. Automated Testing
+## 10. Automated Testing
 
 The repository includes an automated test project named `RaceDay.API.Tests`.
 
