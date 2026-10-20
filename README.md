@@ -282,7 +282,7 @@ The exact HTTP methods, request formats, validation rules and authentication req
 - Check the repository-relative paths to the API, test project and solution.
 - Confirm that the workflow uses the correct .NET SDK version.
 
-## 15. Demonstration Video
+## 14. Demonstration Video
 
 **Video link:** [Insert your RaceDay project demonstration video URL here]
 
