@@ -231,7 +231,7 @@ Insert a screenshot showing the successful RaceDay CI workflow here.
 
 Create the `docs/screenshots` folder and save your screenshot there if you want to keep the evidence in the repository.
 
-## 13. API Functionality
+## 12. API Functionality
 
 The API includes controllers and related functionality for:
 
