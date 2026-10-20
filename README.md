@@ -176,7 +176,7 @@ The test files cover the following areas:
 - Enrolments
 - Events
 - Results
-- Users
+- users
 
 Run the automated tests from the repository root:
 
